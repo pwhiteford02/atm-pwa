@@ -1,0 +1,19 @@
+{
+  "name": "atm-pwa",
+  "version": "1.0.0",
+  "description": "a atm PWA",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pwhiteford02/atm-pwa.git"
+  },
+  "author": "parker whiteford",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pwhiteford02/atm-pwa/issues"
+  },
+  "homepage": "https://github.com/pwhiteford02/atm-pwa#readme"
+}
