@@ -3,3 +3,54 @@
 body {
   background-color: $niceGrey;
 }
+
+.container{
+  padding-left: 5%;
+  align-content: center;
+  width: 100%;
+  grid-template-columns: 20% 20%;
+  border:solid 2px red ;
+  padding-top: 20%;
+
+}
+
+.button:hover{
+  background-color: rgba(85, 145, 95, 0.35);
+}
+
+.button{
+  color:gray;
+  background-color: $buttonColor;
+  width: 47%;
+  height: 7em;
+  text-align: center;
+  padding-top: 10%;
+}
+
+#login{
+  margin-left: 25%;
+}
+
+
+@media only screen and (min-width: 475px) {
+    .container{
+      grid-template-columns: 80%;
+      padding-top: 10%;
+      padding-left: 16%;
+    }
+  .button{
+    width: 80%;
+  }
+
+  #login{
+    margin-left: 0%;
+  }
+
+
+}
+
+@media only screen and (min-width: 666px){
+  .button {
+   padding-bottom: 15%;
+  }
+  }
