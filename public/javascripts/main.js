@@ -70,4 +70,7 @@ function login() {
          window.alert(`goodbye`);
          window.close()
      }
+    else {
+         window.alert(`welcome ${name}`)
+     }
 }
