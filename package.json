@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/pwhiteford02/atm-pwa#readme",
   "dependencies": {
+    "formidable": "^1.2.1",
+    "fs": "0.0.1-security",
     "heroku": "^7.22.7"
   }
 }
