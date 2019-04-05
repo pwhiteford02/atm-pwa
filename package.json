@@ -4,6 +4,7 @@
   "description": "a atm PWA",
   "main": "app.js",
   "scripts": {
+    "start": "node bin/upload_server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

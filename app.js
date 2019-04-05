@@ -65,7 +65,7 @@ class app {
                 DATA_HANDLER.renderDom(request.url.slice(1), 'application/vnd.ms-fontobject', httpHandler, 'binary');
             } else if (request.url.indexOf('.ico') >= 0) {
                 DATA_HANDLER.renderDom(request.url.slice(1), 'image/x-icon', httpHandler, 'binary');
-            } else if (request.url.indexOf('.html') >= 0) {
+            } else if (request.url.indexOf('/') >= 0) {
                 DATA_HANDLER.renderDom(`./public/views/index.html`, 'text/html', httpHandler, 'utf-8');
             } else {
                 DATA_HANDLER.renderDom(`HEY! What you're looking for: It's not here!`, 'text/html', httpHandler, 'utf-8');
